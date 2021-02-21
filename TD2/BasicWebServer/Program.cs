@@ -1,9 +1,13 @@
-﻿using System;
+﻿using BasicWebServer;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
 using System.Web;
+
+
+//url example :  http://localhost:8080/cgi/helloworld?param1=Yao&param2=Leo
 
 namespace BasicServerHTTPlistener
 {
@@ -18,7 +22,6 @@ namespace BasicServerHTTPlistener
                 Console.WriteLine("A more recent Windows version is required to use the HttpListener class.");
                 return;
             }
- 
  
             // Create a listener.
             HttpListener listener = new HttpListener();
@@ -75,41 +78,50 @@ namespace BasicServerHTTPlistener
                 // get url 
                 Console.WriteLine($"Received request for {request.Url}");
 
+
+                /*
                 //get url protocol
-                Console.WriteLine(request.Url.Scheme);
+                Console.WriteLine("url protocol: "+request.Url.Scheme);
                 //get user in url
-                Console.WriteLine(request.Url.UserInfo);
+                Console.WriteLine("user in url: " + request.Url.UserInfo);
                 //get host in url
-                Console.WriteLine(request.Url.Host);
+                Console.WriteLine("host in url: " + request.Url.Host);
                 //get port in url
-                Console.WriteLine(request.Url.Port);
+                Console.WriteLine("port in url: " + request.Url.Port);
                 //get path in url 
-                Console.WriteLine(request.Url.LocalPath);
+                Console.WriteLine("path in url: "+request.Url.LocalPath);
 
                 // parse path in url 
                 foreach (string str in request.Url.Segments)
                 {
                     Console.WriteLine(str);
                 }
-
                 //get params un url. After ? and between &
-
                 Console.WriteLine(request.Url.Query);
-
                 //parse params in url
                 Console.WriteLine("param1 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param1"));
                 Console.WriteLine("param2 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
                 Console.WriteLine("param3 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param3"));
                 Console.WriteLine("param4 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param4"));
-
-                //
+                
                 Console.WriteLine(documentContents);
+                */
 
-                // Obtain a response object.
                 HttpListenerResponse response = context.Response;
 
-                // Construct a response.
-                string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+                string responseString;
+                string[] path = request.Url.Segments;
+                if (path[path.Length - 1].Equals("helloworld"))
+                {
+                    string name1 = HttpUtility.ParseQueryString(request.Url.Query).Get("param1");
+                    string name2 = HttpUtility.ParseQueryString(request.Url.Query).Get("param2");
+                    responseString =  MyMethod.Hello(name1, name2);
+                }
+                else
+                {
+                    responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+                }
+
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                 // Get a response stream and write the response to it.
                 response.ContentLength64 = buffer.Length;

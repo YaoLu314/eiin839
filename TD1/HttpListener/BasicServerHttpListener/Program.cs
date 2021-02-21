@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BasicWebServer;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -57,6 +58,7 @@ namespace BasicServerHTTPlistener
                 HttpListenerContext context = listener.GetContext();
                 HttpListenerRequest request = context.Request;
 
+
                 string documentContents;
                 using (Stream receiveStream = request.InputStream)
                 {
@@ -65,8 +67,11 @@ namespace BasicServerHTTPlistener
                         documentContents = readStream.ReadToEnd();
                     }
                 }
+                
                 Console.WriteLine($"Received request for {request.Url}");
                 Console.WriteLine(documentContents);
+
+                Header.DisplayWebHeaderCollection(request);
 
                 // Obtain a response object.
                 HttpListenerResponse response = context.Response;
