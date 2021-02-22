@@ -18,7 +18,8 @@ namespace BasicWebServer
 
             //Question 5:
             ProcessStartInfo start = new ProcessStartInfo();
-            start.FileName = @"C:\Users\50337\Desktop\soc\eiin839\TD2\ExecTest\bin\Debug\ExecTest.exe"; 
+            //start.FileName = @"C:\Users\50337\Desktop\soc\eiin839\TD2\ExecTest\bin\Debug\ExecTest.exe";
+            start.FileName = @"C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\bin\Debug\net5.0\myExe.exe";
             string argument = name1 + " " + name2;
             start.Arguments = argument; 
             start.UseShellExecute = false;

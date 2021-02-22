@@ -1,0 +1,16 @@
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\bin\Debug\net5.0\myExe.exe
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\bin\Debug\net5.0\myExe.deps.json
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\bin\Debug\net5.0\myExe.runtimeconfig.json
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\bin\Debug\net5.0\myExe.runtimeconfig.dev.json
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\bin\Debug\net5.0\myExe.dll
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\bin\Debug\net5.0\ref\myExe.dll
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\bin\Debug\net5.0\myExe.pdb
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\myExe.csprojAssemblyReference.cache
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\myExe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\myExe.AssemblyInfoInputs.cache
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\myExe.AssemblyInfo.cs
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\myExe.csproj.CoreCompileInputs.cache
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\myExe.dll
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\ref\myExe.dll
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\myExe.pdb
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\myExe\obj\Debug\net5.0\myExe.genruntimeconfig.cache

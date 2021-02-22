@@ -1,0 +1,13 @@
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\bin\Debug\netcoreapp3.1\WebDynamic.exe
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\bin\Debug\netcoreapp3.1\WebDynamic.deps.json
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\bin\Debug\netcoreapp3.1\WebDynamic.runtimeconfig.json
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\bin\Debug\netcoreapp3.1\WebDynamic.runtimeconfig.dev.json
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\bin\Debug\netcoreapp3.1\WebDynamic.dll
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\bin\Debug\netcoreapp3.1\WebDynamic.pdb
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\obj\Debug\netcoreapp3.1\WebDynamic.csprojAssemblyReference.cache
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\obj\Debug\netcoreapp3.1\WebDynamic.AssemblyInfoInputs.cache
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\obj\Debug\netcoreapp3.1\WebDynamic.AssemblyInfo.cs
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\obj\Debug\netcoreapp3.1\WebDynamic.csproj.CoreCompileInputs.cache
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\obj\Debug\netcoreapp3.1\WebDynamic.dll
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\obj\Debug\netcoreapp3.1\WebDynamic.pdb
+C:\Users\50337\Desktop\soc\eiin839\TD2\WebDynamic\WebDynamic\obj\Debug\netcoreapp3.1\WebDynamic.genruntimeconfig.cache
