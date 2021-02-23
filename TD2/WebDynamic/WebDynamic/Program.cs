@@ -7,7 +7,7 @@ using System.Text;
 using System.Web;
 
 
-//url example :  http://localhost:8080/cgi/helloworld?param1=Yao&param2=Leo
+//url example :  http://localhost:8080/cgi/helloworld?name1=Yao&name2=Leo
 
 namespace WebDynamic
 {
@@ -80,8 +80,8 @@ namespace WebDynamic
                 string[] path = request.Url.Segments;
                 if (path[path.Length - 1].Equals("helloworld"))
                 {
-                    string name1 = HttpUtility.ParseQueryString(request.Url.Query).Get("param1");
-                    string name2 = HttpUtility.ParseQueryString(request.Url.Query).Get("param2");
+                    string name1 = HttpUtility.ParseQueryString(request.Url.Query).Get("name1");
+                    string name2 = HttpUtility.ParseQueryString(request.Url.Query).Get("name2");
                     responseString = MyMethod.Hello(name1, name2);
                 }
                 else
